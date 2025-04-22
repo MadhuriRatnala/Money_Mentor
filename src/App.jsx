@@ -4,7 +4,7 @@ import Navbar from './components/Navbar';
 import Home from './components/Home';
 import Whychooseus from './components/Whychooseus';
 import Projects from './components/Projects';
-import Stats from './components/stats';
+import Stats from './components/Stats';
 import Contact from './components/Contact';
 
 function App() {
