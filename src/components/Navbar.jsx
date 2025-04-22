@@ -28,20 +28,20 @@ const Navbar = () => {
             isScrolled ? 'bg-purple-900 shadow-lg py-1' : 'bg-purple-900/95 backdrop-blur-sm py-2'
         }`}>
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-                <div className="flex justify-between items-center h-12">
-                    <div className="flex items-center absolute left-4 top-1">
-                        <span className="text-2xl font-extrabold text-white tracking-wider hover:text-purple-200 transition-colors duration-300 cursor-pointer font-serif">
-                            MoneyMentor
+                <div className="flex justify-between items-center h-16"> {/* Increased height */}
+                    <div className="flex items-center absolute left-6 top-2"> {/* Adjusted position */}
+                        <span className="text-4xl font-black text-white tracking-widest hover:text-purple-200 transition-all duration-300 cursor-pointer font-serif transform hover:scale-105">
+                            Budget<span className="text-pink-300">Buddy</span>
                         </span>
                     </div>
 
                     {/* Desktop Navigation */}
-                    <div className="hidden md:flex space-x-6 ml-auto">
+                    <div className="hidden md:flex space-x-8 ml-auto"> {/* Increased spacing */}
                         {navLinks.map((link) => (
                             <Link
                                 key={link.name}
                                 to={link.path}
-                                className="text-sm text-white hover:text-purple-200 transition-colors font-medium"
+                                className="text-base text-white hover:text-purple-200 transition-colors font-semibold tracking-wide"
                             >
                                 {link.name}
                             </Link>
