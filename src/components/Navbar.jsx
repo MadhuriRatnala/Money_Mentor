@@ -25,13 +25,17 @@ const Navbar = () => {
 
     return (
         <nav className={`fixed top-0 left-0 right-0 z-50 transition-all duration-500 ease-in-out ${
-            isScrolled ? 'bg-purple-900 shadow-lg py-1' : 'bg-purple-900/95 backdrop-blur-sm py-2'
+            isScrolled ? 'bg-blue-600 shadow-lg py-1' : 'bg-blue-600 backdrop-blur-md py-2'
         }`}>
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-                <div className="flex justify-between items-center h-16"> {/* Increased height */}
-                    <div className="flex items-center absolute left-6 top-2"> {/* Adjusted position */}
-                        <span className="text-4xl font-black text-white tracking-widest hover:text-purple-200 transition-all duration-300 cursor-pointer font-serif transform hover:scale-105">
-                            Budget<span className="text-pink-300">Buddy</span>
+                <div className="flex justify-between items-center h-16">
+                    <div className="flex items-center space-x-2">
+                        <span className="font-light tracking-wide text-white">Budget</span>
+                        <span className="relative">
+                            <span className="bg-white text-emerald-900 px-3 py-1 rounded-lg font-black tracking-wider transform transition-transform group-hover:scale-105 inline-block">
+                                Buddy
+                            </span>
+                            <span className="absolute -bottom-1 -right-1 bg-emerald-400 w-full h-full rounded-lg -z-10 opacity-50"></span>
                         </span>
                     </div>
 

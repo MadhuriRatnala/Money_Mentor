@@ -10,7 +10,7 @@ import Contact from './components/Contact';
 function App() {
   return (
     <Router>
-      <div className="min-h-screen bg-gradient-to-b from-purple-900 via-purple-800 to-purple-900">
+      <div className="min-h-screen">
         <div className="absolute inset-0 bg-[url('https://transparenttextures.com/patterns/cubes.png')] opacity-10"></div>
         <Navbar />
         <div className="pt-16 relative">
@@ -25,9 +25,9 @@ function App() {
                   <div className="bg-gradient-to-tr from-purple-900/90 to-purple-800/90">
                     <Projects />
                   </div>
-                  <div className="bg-gradient-to-b from-purple-800 to-purple-900">
+                  
                     <Stats />
-                  </div>
+                 
                   <div className="bg-gradient-to-tr from-purple-900 to-purple-800">
                     <Contact />
                   </div>

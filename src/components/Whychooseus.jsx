@@ -1,28 +1,25 @@
 import React from 'react';
 const Whychooseus = () => {
     return (
-        <section id="why-us" className="py-20 bg-pink-200">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <h2 className="text-4xl font-bold text-center mb-12 text-purple-900">Why Choose Us</h2>
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-                <div className="text-center">
-                    <div className="text-5xl mb-4">📊</div>
-                    <h3 className="text-xl font-semibold mb-2 text-purple-900">Expert Analysis</h3>
-                    <p className="text-purple-800">Our team of certified advisors provides data-driven insights to maximize your wealth.</p>
-                </div>
-                <div className="text-center">
-                    <div className="text-5xl mb-4">🤝</div>
-                    <h3 className="text-xl font-semibold mb-2 text-purple-900">Personalized Plans</h3>
-                    <p className="text-purple-800">Customized financial strategies tailored to your unique goals and risk profile.</p>
-                </div>
-                <div className="text-center">
-                    <div className="text-5xl mb-4">🏆</div>
-                    <h3 className="text-xl font-semibold mb-2 text-purple-900">Proven Results</h3>
-                    <p className="text-purple-800">Trusted by thousands with a track record of consistent returns.</p>
+        <section id="why-us" className="py-20 bg-white">
+            <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <h2 className="text-4xl font-bold text-center mb-16 text-blue-900">Why Choose Us</h2>
+                <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
+                    <div className="p-6 rounded-lg bg-white/50 backdrop-blur-sm hover:bg-white/70 transition-all duration-300 shadow-xl">
+                        <h3 className="text-2xl font-semibold mb-4 text-blue-800">Expert Guidance</h3>
+                        <p className="text-blue-700">Our team of certified financial advisors brings decades of experience.</p>
+                    </div>
+                    <div className="p-6 rounded-lg bg-white/50 backdrop-blur-sm hover:bg-white/70 transition-all duration-300 shadow-xl">
+                        <h3 className="text-2xl font-semibold mb-4 text-blue-800">Personalized Solutions</h3>
+                        <p className="text-blue-700">Tailored financial strategies that align with your unique goals.</p>
+                    </div>
+                    <div className="p-6 rounded-lg bg-white/50 backdrop-blur-sm hover:bg-white/70 transition-all duration-300 shadow-xl">
+                        <h3 className="text-2xl font-semibold mb-4 text-blue-800">Proven Track Record</h3>
+                        <p className="text-blue-700">Consistent success in helping clients achieve their financial objectives.</p>
+                    </div>
                 </div>
             </div>
-        </div>
-    </section> 
+        </section> 
     )
 }
 export default Whychooseus;
